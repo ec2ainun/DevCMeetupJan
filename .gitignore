@@ -4,6 +4,8 @@
 
 # Weight files
 bin/
+*.weight
+*.ipynb
 
 # Sample image data
 sample_img/*.jpg
