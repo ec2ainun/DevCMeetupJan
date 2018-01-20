@@ -16,6 +16,8 @@ untuk support komputasi GPU
 ```
 
 ## Docker
+[Pengantar](https://ec2ainun.github.io/DockerTF/)
+
 masuk ke folder dl-docker, lalu build image:
 ```sh
    > docker build -t nama-image .
@@ -25,3 +27,8 @@ atau pull image dan run container dari docker hub :
 ```sh
    >  nvidia-docker run -it -p 8888:8888 -p 6006:6006 -p 3000-3005:3000-3005 ec2ainun/dl-talks:stable
 ```
+
+## Pengantar 
+- Penjelasan Pengantar bahasa Python : [Pengantar Python 3](http://nbviewer.jupyter.org/github/ec2ainun/notebooks/blob/master/python3.4.ipynb)
+- Penjelasan Pengantar TensorFlow : [Pengantar TensorFlow](http://nbviewer.jupyter.org/github/ec2ainun/notebooks/blob/master/Tensor.ipynb)
+- Penjelasan Operasi Dasar TensorFlow : [Operasi TensorFlow](http://nbviewer.jupyter.org/github/ec2ainun/notebooks/blob/master/OperasiTF.ipynb)
