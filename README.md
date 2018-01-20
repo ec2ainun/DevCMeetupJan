@@ -1,4 +1,4 @@
-# DevCMeetupJan
+# Demo DevCMeetupJan
 
 [Source](https://github.com/thtrieu/darkflow)
 Real-time object detection and classification. Paper: [version 1](https://arxiv.org/pdf/1506.02640.pdf), [version 2](https://arxiv.org/pdf/1612.08242.pdf).
@@ -7,7 +7,7 @@ Real-time object detection and classification. Paper: [version 1](https://arxiv.
     ```
     pip install -e .
     ```
-    
+
 ## Docker
 masuk ke folder dl-docker, lalu build image:
 ```sh
@@ -17,5 +17,5 @@ masuk ke folder dl-docker, lalu build image:
 
 atau pull image dari docker hub :
 ```sh
-   >  nvidia-docker run -it -p 8888:8888 -p 6006:6006 ec2ainun/dl-talks:stable
+   >  nvidia-docker run -it -p 8888:8888 -p 6006:6006 -p 3000-3005:3000-3005 ec2ainun/dl-talks:stable
 ```
